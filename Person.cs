@@ -1,9 +1,9 @@
 ﻿namespace knightmoves;
 
 public class Person {
-   private string firstName.ToString();
-   private string lastName.ToString();
-   private int age.ToString();
+   private abstract string firstName.ToString();
+   private abstract string lastName.ToString();
+   private abstract int age.ToString();
 
    public Person(string firstName, string lastName, int age){
       this.firstName = firstName;
@@ -17,4 +17,5 @@ public class Person {
  }
 
 }
+
 
